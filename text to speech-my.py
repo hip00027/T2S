@@ -70,7 +70,8 @@ col1, col2 = st.columns([2, 3])  # Adjust the ratio to make the video column lar
 with col1:
     st.header("Welcome to TTS App")
     # Display the video using the provided path
-    st.video(r"D:\Naresh i Class\Sept 2024\13 Sep 24\invideo-ai-1080 How to Use Text-to-Speech_ Male or Femal 2024-09-14.mp4")
+    # Assuming the video is uploaded to your GitHub repo
+    st.video("invideo-ai-1080 How to Use Text-to-Speech_ Male or Femal 2024-09-14.mp4")
 
 # Right column - Text-to-Speech Functionality
 with col2:
